@@ -1,0 +1,34 @@
+.template__container {
+    padding: 0px 28px;
+}
+
+.template__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    padding: 20px;
+
+    @include mediaMobile {
+        padding: 0px;
+    }
+}
+
+.template__title {
+    text-align: center;
+}
+
+.template__img-container {
+    background: $violet;
+
+    border-radius: 8px;
+}
+
+.template__img {
+    width: 504px;
+    max-height: 360px;
+}
+
+.template__btn {
+    margin: 0 auto;
+}

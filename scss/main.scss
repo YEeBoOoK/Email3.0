@@ -1,0 +1,13 @@
+//base
+
+@import './_base/reset';
+@import './_base/vars';
+@import './_base/mixins';
+@import './_base/base';
+
+// blocks
+
+@import './blocks/template';
+@import './blocks/customizes';
+@import './blocks/corporation';
+@import './blocks/text';

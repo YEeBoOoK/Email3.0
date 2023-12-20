@@ -1,0 +1,35 @@
+.corporation__container {
+    padding: 12px 20px 18px;
+}
+
+.corporation__text {
+    text-align: center;
+    font-size: 13px;
+    line-height: 142.5%;
+
+    max-width: 347px;
+}
+
+.corporation__icons {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+
+    text-align: center;
+
+    gap: 26px;
+    padding: 25px 0;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.corporation__text-bottom {
+    text-align: center;
+    font-size: 13px;
+    line-height: 142.5%;
+
+    margin: 0 auto;
+    max-width: 100px;
+}
